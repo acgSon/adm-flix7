@@ -20,7 +20,19 @@
     "ghcr.io/devcontainers/features/java:1": {},
     "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {},
     "ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"firsttris.vscode-jest-runner",
+			"SonarSource.sonarlint-vscode",
+			"esbenp.prettier-vscode",
+			"dbaeumer.vscode-eslint",
+			"ms-vscode.vscode-typescript-next",
+			"naumovs.color-highlight"
+		]
+	}
+}
 
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
